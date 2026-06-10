@@ -249,7 +249,7 @@ export default function App() {
       </main>
 
       <footer className="mt-10 border-t border-rock-800 py-4 text-center text-xs text-rock-600">
-        Rockfall Prediction System — Model: Random Forest Classifier — Dataset: Synthetic Open Pit Mining Data (500 records)
+        Rockfall Prediction System — Model: Voting Ensemble (RF + XGBoost + LightGBM + CatBoost) — Dataset: Synthetic Open Pit Mining Data (500 records)
         &nbsp;•&nbsp; Source: <a href="https://github.com/khushibansal2/Rockfall_predictionOpenPIT" target="_blank" rel="noreferrer" className="text-mine-600 hover:text-mine-400">khushibansal2/Rockfall_predictionOpenPIT</a>
       </footer>
     </div>

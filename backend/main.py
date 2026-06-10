@@ -47,7 +47,7 @@ class PredictionRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "model": "Random Forest Classifier"}
+    return {"status": "ok", "model": "Voting Ensemble (RF + XGBoost + LightGBM + CatBoost)"}
 
 
 @app.post("/predict")

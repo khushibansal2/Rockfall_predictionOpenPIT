@@ -20,7 +20,7 @@ export default function Header() {
             Model Active
           </span>
           <span className="hidden sm:inline bg-rock-800 rounded-full px-3 py-1 border border-rock-700">
-            Random Forest • 200 trees
+            Voting Ensemble • RF + XGB + LGB + CatBoost
           </span>
         </div>
       </div>
